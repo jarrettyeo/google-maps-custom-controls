@@ -1,0 +1,70 @@
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 85px;
+  z-index: 1;
+  margin: 5px;
+  cursor: pointer;
+  text-align: left;
+  z-index: 0;
+  font-size: 11px;
+  background-color: rgb(255, 255, 255);
+  padding: 8px;
+  border-radius: 2px;
+  background-clip: padding-box;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+  font-weight: 500;
+  }
+
+.button{
+  direction: ltr;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-family: Roboto, Arial, sans-serif;
+  user-select: none;
+  font-size: 11px;
+  background-color: rgb(255, 255, 255);
+  padding: 8px;
+  background-clip: padding-box;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+  min-width: 22px;
+  font-weight: 'bold';
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background: -webkit-linear-gradient(top,rgb(255,255,255),rgb(230,230,230));
+  }
+
+.rightest-button{
+  margin-right: 5px;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+
+}
+
+.leftest-button{
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.mother-button{
+  margin-right: 10px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+}
